@@ -1,0 +1,49 @@
+
+div.dropdown {
+    position: relative;
+    .dropdown-btn {
+      padding: 10px;
+      background-color: black;
+      border: 1px solid white;
+      border-radius: 5px;
+      width: 200px;
+      color: white; 
+      cursor: pointer; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative; 
+    }
+  
+    .dropdown-content {
+      opacity: 0;
+      visibility: hidden; 
+      position: absolute; 
+      top: 100%; 
+      left: 0;
+      background-color: black; 
+      border: 1px solid white;
+      border-radius: 0px;
+      text-align: left;
+      z-index: 1000; 
+      width: 100%; 
+      transition: opacity 0.3s ease, visibility 0.3s ease; 
+    }
+  
+    .dropdown-content.show {
+      opacity: 1; 
+      visibility: visible; 
+    }
+  
+    .dropdown-item {
+      border-bottom: 1px solid white;
+      padding: 10px;
+      color: white;
+      cursor: pointer; 
+    }
+  
+    .dropdown-item:hover {
+      background-color: #444; 
+    }
+  }
+  
