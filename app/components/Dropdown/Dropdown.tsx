@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import '../styles/Dropdown.scss';
+import './/Dropdown.scss';
 
 const Dropdown = () => {
   const [selected, setSelected] = useState('br'); 

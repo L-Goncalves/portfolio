@@ -1,7 +1,7 @@
 
 import React from 'react';
-import '../styles/Header.scss';
-import Dropdown from './Dropdown';
+import './/Header.scss';
+import Dropdown from '../Dropdown/Dropdown';
 
 const Header = () => {
   return (
